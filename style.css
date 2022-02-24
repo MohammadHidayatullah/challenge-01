@@ -1,0 +1,382 @@
+body {
+    background-color: #FFF;
+}
+
+* {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.navbar {
+    padding-top: 25px;
+    background: #F1F3FF;
+}
+
+.navbar-brand {
+    height: 34px;
+    width: 100px;
+    background: #0D28A6;
+}
+
+.nav-link {
+    font-weight: 400px;
+    font-style: normal;
+    padding: 0 !important;
+    margin-left: 32px;
+    color: #000000 !important;
+}
+
+#hero {
+    background: #F1F3FF;
+    display: flex;
+    height: 500px;
+}
+
+.btn {
+    height: 36px;
+    border-radius: 2px;
+    padding: 8px, 12px;
+    background: #5CB85F;
+    color: #FFF;
+}
+
+.rg {
+    margin-left: 32px;
+    width: fit-content;
+}
+
+.bg {
+    position: absolute;
+    width: 50%;
+    height: 230px;
+    background: #0D28A6;
+    top: 338px;
+    border-radius: 85px 0 0 0;
+}
+
+.img-car {
+    z-index: 1;
+}
+
+.img-fluid {
+    max-width: 110%;
+    height: auto;
+    margin-top: 96px;
+}
+
+@media screen and (max-width: 991px) {
+    .bg,
+    .img-car {
+        display: none;
+    }
+}
+
+.intro h1 {
+    align-items: center;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    margin-bottom: 16px !important;
+}
+
+.intro p {
+    width: 100%;
+    margin-right: 0 !important;
+    margin: 0 !important;
+    font-family: Helvetica;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.sm {
+    margin: 16px !important;
+    padding: 8px 12px;
+    width: fit-content;
+    margin: 16px 0 !important;
+}
+
+#cta .desc {
+    margin-bottom: 52px;
+}
+
+#cta .banner {
+    padding: 8px 12px;
+    background: #0D28A6;
+    border-radius: 13px;
+    margin: 100px 0;
+}
+
+#cta h2 {
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+#cta p {
+    color: #FFF;
+}
+
+#service {
+    margin: 100px 0px;
+    align-items: center;
+}
+
+#service img {
+    padding: 10px 0;
+    height: 80%;
+}
+
+#service h2 {
+    margin-bottom: 24px;
+}
+
+#service p {
+    margin: 8px 0px;
+}
+
+.services-list .list {
+    background: url('assets/icon/checklist.png') no-repeat left center;
+    padding: 8px;
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.services-list .list span {
+    padding-left: 36px;
+}
+
+.services-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+#whyus {
+    margin: 100px 0px;
+}
+
+#whyus .card {
+    width: 268px;
+    margin-bottom: 10px;
+}
+
+#whyus .card-body {
+    padding: 24px;
+    margin: auto;
+}
+
+#whyus .card-body img {
+    padding-bottom: 16px;
+    width: 32px;
+}
+
+#whyus .card-body h5 {
+    margin-bottom: 16px !important;
+    font-size: 16px;
+    ;
+}
+
+#whyus .card-body p {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.blog {
+    overflow: hidden;
+    position: relative;
+    background-color: #F1F3FF;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.blog .blog-description {
+    position: relative;
+    float: left;
+    text-align: left;
+    padding-right: 32px;
+}
+
+.person {
+    align-self: center;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+.star {
+    display: inline-flex;
+    margin-bottom: 8px;
+}
+
+.desc-testi {
+    position: relative;
+    text-align: left;
+    padding-right: 32px;
+}
+
+.desc-testi p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.user-testi {
+    position: relative;
+    text-align: left;
+    padding-right: 32px;
+}
+
+.user-testi p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.owl-carousel .blog {
+    display: flex;
+    align-items: flex-start;
+}
+
+.owl-carousel img {
+    width: auto;
+}
+
+.owl-stage {
+    display: flex;
+}
+
+.owl-nav {
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    margin: 0 20px;
+    height: 30px;
+    width: 30px;
+    background: #F1F3FF;
+    border-radius: 50px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    margin: 0 20px;
+    height: 30px;
+    width: 30px;
+    background: #5CB85F;
+    ;
+    border-radius: 50px;
+}
+
+#counter {
+    text-align: center;
+}
+
+.accordion .accordion-item {
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    border-radius: 10px !important;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+#faq {
+    margin: 100px 0;
+}
+
+.nav-bottom .navbot-item {
+    list-style: none;
+    color: #000000;
+}
+
+.address p {
+    margin-bottom: 16px;
+}
+
+.sos-link {
+    list-style: none;
+    display: inline-flexbox;
+    padding-right: 16px;
+}
+
+.nav-link-bottom {
+    display: block;
+    font-weight: 400px;
+    font-style: normal;
+    margin-bottom: 16px !important;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+#footer {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+@media (max-width:960px) {
+    #hero {
+        text-align: center;
+    }
+    #service {
+        margin-top: 50px;
+    }
+    #service img {
+        height: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    #service h2,
+    .info {
+        text-align: center;
+    }
+    #whyus h2,
+    .info {
+        text-align: center;
+    }
+    #whyus .card {
+        width: 80%;
+    }
+    #whyus .card .card-body {
+        text-align: center;
+    }
+    #whyus .card .card-body img {
+        width: 32px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #faq h2,
+    .info {
+        text-align: center;
+    }
+    .blog {
+        text-align: center;
+    }
+    .person {
+        height: 80px;
+        align-self: flex-start;
+        text-align: center;
+    }
+    .star,
+    .desc-testi,
+    .user-testi {
+        text-align: center !important;
+        padding: 0;
+    }
+}
