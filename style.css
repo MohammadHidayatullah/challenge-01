@@ -132,8 +132,7 @@ h2 {
 }
 
 #service img {
-    padding: 10px 0;
-    height: 80%;
+    width: 80%;
 }
 
 #service h2 {
@@ -335,7 +334,7 @@ h2 {
         margin-top: 50px;
     }
     #service img {
-        height: 80%;
+        width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
